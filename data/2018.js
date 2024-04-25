@@ -26,7 +26,7 @@ const data = [
     },
     {
         
-        name:"အရှင်စိန္တသာရ",
+        name:"အရှင်ဓမ္မာစာရ",
         task:"နာယက",
         decf:cost,
         jan:cost,
@@ -48,7 +48,7 @@ const data = [
     ,
     {
         
-        name:"အရှင်ဓမ္မာစာရ",
+        name:"အရှင်စိန္တသာရ",
         task:"နာယက",
         decf:cost,
         jan:cost,
@@ -121,15 +121,15 @@ const data = [
         feb:cost,
         mar:cost,
         apr:cost,
-        may:cost,
-        jun:cost,
-        jul:cost,
-        aug:cost,
-        sep:cost,
-        oct:cost,
-        nov:cost,
-        dec:cost,
-        total:cost * 13,
+        may:null,
+        jun:null,
+        jul:null,
+        aug:null,
+        sep:null,
+        oct:null,
+        nov:null,
+        dec:null,
+        total:cost * 5,
         ph:unknown
 
     }
@@ -252,16 +252,16 @@ const data = [
         jan:cost,
         feb:cost,
         mar:cost,
-        apr:cost,
-        may:cost,
-        jun:cost,
-        jul:cost,
-        aug:cost,
-        sep:cost,
-        oct:cost,
-        nov:cost,
-        dec:cost,
-        total:cost * 13,
+        apr:null,
+        may:null,
+        jun:null,
+        jul:null,
+        aug:null,
+        sep:null,
+        oct:null,
+        nov:null,
+        dec:null,
+        total:cost * 4,
         ph:"09426191023"
 
     }
@@ -408,14 +408,14 @@ const data = [
         mar:cost,
         apr:cost,
         may:cost,
-        jun:cost,
-        jul:cost,
-        aug:cost,
-        sep:cost,
-        oct:cost,
-        nov:cost,
-        dec:cost,
-        total:cost * 13,
+        jun:null,
+        jul:null,
+        aug:null,
+        sep:null,
+        oct:null,
+        nov:null,
+        dec:null,
+        total:cost * 6,
         ph:"09454289351"
 
     }
@@ -430,14 +430,14 @@ const data = [
         mar:cost,
         apr:cost,
         may:cost,
-        jun:cost,
+        jun:half,
         jul:null,
         aug:null,
         sep:null,
         oct:null,
         nov:null,
         dec:null,
-        total:cost * 7,
+        total:(cost * 6)+half,
         ph:unknown
 
     }
@@ -451,15 +451,15 @@ const data = [
         feb:cost,
         mar:cost,
         apr:cost,
-        may:cost,
-        jun:cost,
-        jul:cost,
-        aug:cost,
-        sep:cost,
-        oct:cost,
-        nov:cost,
-        dec:cost,
-        total:cost * 13,
+        may:null,
+        jun:null,
+        jul:null,
+        aug:null,
+        sep:null,
+        oct:null,
+        nov:null,
+        dec:null,
+        total:cost * 5,
         ph:unknown
 
     }
@@ -473,7 +473,7 @@ const data = [
         feb:cost,
         mar:cost,
         apr:cost,
-        may:cost,
+        may:null,
         jun:null,
         jul:null,
         aug:null,
@@ -481,7 +481,7 @@ const data = [
         oct:null,
         nov:null,
         dec:null,
-        total:cost * 6,
+        total:cost * 5,
         ph:unknown
 
     }
@@ -1068,14 +1068,14 @@ const data = [
         mar:cost,
         apr:cost,
         may:cost,
-        jun:cost,
-        jul:cost,
+        jun:null,
+        jul:null,
         aug:null,
         sep:null,
         oct:null,
         nov:null,
         dec:null,
-        total:cost * 8,
+        total:cost * 6,
         ph:unknown
 
     }
