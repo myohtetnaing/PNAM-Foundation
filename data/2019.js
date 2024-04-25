@@ -4,7 +4,6 @@ const unknown = "09*********"
 const member = "အသင်းဝင်"
 const data = [
     {
-        id:1,
         name:"အရှင်သုဘောဂ",
         jan:null,
         feb:null,
@@ -23,7 +22,6 @@ const data = [
 
     },
     {
-        id:2,
         name:"အရှင်စိန္တသာရ",
         jan:null,
         feb:null,
@@ -43,7 +41,6 @@ const data = [
     }
     ,
     {
-        id:3,
         name:"အရှင်ဓမ္မာစာရ",
         jan:cost,
         feb:cost,
@@ -63,7 +60,6 @@ const data = [
     }
     ,
     {
-        id:4,
         name:"အရှင်ပညာဗလ",
         jan:null,
         feb:null,
@@ -83,7 +79,6 @@ const data = [
     }
     ,
     {
-        id:5,
         name:"ဒေါ်ယုယုဆွေ",
         jan:null,
         feb:null,
@@ -103,7 +98,6 @@ const data = [
     }
     ,
     {
-        id:6,
         name:"ဒေါ်ပန်းသိန်းခင်",
         jan:cost,
         feb:cost,
@@ -123,7 +117,6 @@ const data = [
     }
     ,
     {
-        id:7,
         name:"မျိုးထက်နိုင်",
         jan:cost,
         feb:cost,
@@ -143,7 +136,6 @@ const data = [
     }
     ,
     {
-        id:8,
         name:"ကိုစိုးဝင်း",
         jan:null,
         feb:null,
@@ -163,7 +155,6 @@ const data = [
     }
     ,
     {
-        id:9,
         name:"ကိုလင်းမောင်",
         jan:cost,
         feb:cost,
@@ -183,7 +174,6 @@ const data = [
     }
     ,
     {
-        id:10,
         name:"မောင်မျိုးဆက်",
         jan:null,
         feb:null,
@@ -203,7 +193,6 @@ const data = [
     }
     ,
     {
-        id:11,
         name:"ခင်ချိုလင်း",
         jan:null,
         feb:null,
@@ -223,7 +212,6 @@ const data = [
     }
     ,
     {
-        id:12,
         name:"ဇင်ချိုထက်",
         jan:null,
         feb:null,
@@ -243,7 +231,6 @@ const data = [
     }
     ,
     {
-        id:13,
         name:"ငြိမ်းချမ်းကို",
         jan:null,
         feb:null,
@@ -263,7 +250,7 @@ const data = [
     }
     ,
     {
-        id:14,
+        
         name:"သိန်းဇော်ထွန်း",
         jan:null,
         feb:null,
@@ -283,7 +270,7 @@ const data = [
     }
     ,
     {
-        id:15,
+        
         name:"အောင်နိုင်ဇော်",
         jan:cost,
         feb:cost,
@@ -303,7 +290,7 @@ const data = [
     }
     ,
     {
-        id:16,
+        
         name:"ကိုလင်းစိုး",
         jan:null,
         feb:null,
@@ -323,7 +310,7 @@ const data = [
     }
     ,
     {
-        id:17,
+        
         name:"စိုးဝင်ထွန်း",
         jan:null,
         feb:null,
@@ -343,7 +330,7 @@ const data = [
     }
     ,
     {
-        id:18,
+        
         name:"ဦးထွန်းလင်း",
         jan:null,
         feb:null,
@@ -363,7 +350,7 @@ const data = [
     }
     ,
     {
-        id:19,
+        
         name:"ထွန်းနိုင်စိုး",
         jan:cost,
         feb:cost,
@@ -383,7 +370,7 @@ const data = [
     }
     ,
     {
-        id:20,
+        
         name:"ခင်ဇော်ဝင်း",
         jan:cost,
         feb:cost,
@@ -403,7 +390,7 @@ const data = [
     }
     ,
     {
-        id:21,
+    
         name:"ခန့်ဝင့်အောင်	",
         jan:cost,
         feb:cost,
@@ -423,7 +410,7 @@ const data = [
     }
     ,
     {
-        id:22,
+        
         name:"မျိုးနေထွန်း",
         jan:cost,
         feb:cost,
@@ -443,7 +430,7 @@ const data = [
     }
     ,
     {
-        id:23,
+    
         name:"အောင်ကိုသန်း",
         jan:null,
         feb:null,
@@ -463,7 +450,7 @@ const data = [
     }
     ,
     {
-        id:24,
+        
         name:"အောင်မျိုးထက်",
         jan:null,
         feb:null,
@@ -483,7 +470,7 @@ const data = [
     }
     ,
     {
-        id:25,
+    
         name:"သန်းဝင်းဇော်",
         jan:null,
         feb:null,
@@ -503,7 +490,7 @@ const data = [
     }
     ,
     {
-        id:26,
+        
         name:"ရဲကျော်သန်း",
         jan:null,
         feb:null,
@@ -523,7 +510,7 @@ const data = [
     }
     ,
     {
-        id:27,
+        
         name:"အောင်ကြည်",
         jan:null,
         feb:null,
@@ -543,7 +530,7 @@ const data = [
     }
     ,
     {
-        id:28,
+        
         name:"သန်းတင်မောင်",
         jan:null,
         feb:null,
@@ -563,7 +550,7 @@ const data = [
     }
     ,
     {
-        id:29,
+        
         name:"မျိုးမြတ်သူ",
         jan:cost,
         feb:cost,
@@ -583,7 +570,7 @@ const data = [
     }
     ,
     {
-        id:30,
+       
         name:"မြင့်ဇော်ဝင်း",
         mar:null,
         apr:null,
@@ -601,7 +588,7 @@ const data = [
     }
     ,
     {
-        id:31,
+     
         name:"ထွန်းကိုကို",
         jan:null,
         feb:null,
@@ -621,7 +608,7 @@ const data = [
     }
     ,
     {
-        id:32,
+       
         name:"လင်းလင်းဖြိုး",
         jan:cost,
         feb:cost,
@@ -641,7 +628,7 @@ const data = [
     }
     ,
     {
-        id:33,
+   
         name:"မာမာသန်း",
         jan:cost,
         feb:cost,
@@ -661,7 +648,7 @@ const data = [
     }
     ,
     {
-        id:34,
+
         name:"လှိုင်လှိုင်ဖြိုး",
         jan:cost,
         feb:cost,
@@ -681,7 +668,7 @@ const data = [
     }
     ,
     {
-        id:35,
+   
         name:"အေးနန္ဒာစိုး",
         jan:null,
         feb:null,
@@ -701,7 +688,7 @@ const data = [
     }
     ,
     {
-        id:36,
+
         name:"အေးသန္တာမြင့်",
         jan:null,
         feb:null,
@@ -721,7 +708,7 @@ const data = [
     }
     ,
     {
-        id:37,
+   
         name:"မမျိုးနွယ်",
         jan:cost,
         feb:cost,
@@ -741,7 +728,7 @@ const data = [
     }
     ,
     {
-        id:38,
+  
         name:"ခင်ထက်စိုး",
         jan:null,
         feb:null,
@@ -761,7 +748,7 @@ const data = [
     }
     ,
     {
-        id:39,
+
         name:"မိမိစံ",
         jan:cost,
         feb:cost,
@@ -781,7 +768,7 @@ const data = [
     }
     ,
     {
-        id:40,
+  
         name:"ဆန်းယုခင်",
         jan:cost,
         feb:cost,
@@ -801,7 +788,7 @@ const data = [
     }
     ,
     {
-        id:41,
+
         name:"ဇင်မာလွင်",
         jan:null,
         feb:null,
@@ -821,7 +808,7 @@ const data = [
     }
     ,
     {
-        id:42,
+
         name:"မျိုးမျိုး",
         jan:cost,
         feb:cost,
@@ -841,7 +828,7 @@ const data = [
     }
     ,
     {
-        id:43,
+
         name:"နန္ဒာစိုး",
         jan:null,
         feb:null,
@@ -861,7 +848,7 @@ const data = [
     }
     ,
     {
-        id:44,
+
         name:"စန္ဒာမြင်",
         jan:cost,
         feb:cost,
@@ -881,7 +868,7 @@ const data = [
     }
     ,
     {
-        id:45,
+
         name:"သိန်းမေ",
         jan:cost,
         feb:cost,
@@ -901,7 +888,7 @@ const data = [
     }
     ,
     {
-        id:46,
+
         name:"မိုးသိန်းကြည်",
         jan:null,
         feb:null,
@@ -921,7 +908,7 @@ const data = [
     }
     ,
     {
-        id:47,
+
         name:"မိုးမိုးသန်း",
         jan:null,
         feb:null,
@@ -941,7 +928,7 @@ const data = [
     }
     ,
     {
-        id:48,
+
         name:"ခင်သန္တာဖြိုး",
         jan:cost,
         feb:cost,
@@ -961,7 +948,7 @@ const data = [
     }
     ,
     {
-        id:49,
+
         name:"လှလှတင်",
         jan:null,
         feb:null,
@@ -981,7 +968,6 @@ const data = [
     }
     ,
     {
-        id:50,
         name:"လှခင်ရီ",
         jan:null,
         feb:null,
@@ -1001,7 +987,6 @@ const data = [
     }
     ,
     {
-        id:51,
         name:"ရွှေဇင်ထွန်း",
         jan:null,
         feb:null,
@@ -1021,7 +1006,6 @@ const data = [
     }
     ,
     {
-        id:52,
         name:"ခင်မြရွှေ",
         jan:null,
         feb:null,
@@ -1041,7 +1025,6 @@ const data = [
     }
     ,
     {
-        id:53,
         name:"မျိုးမင်းစိုး",
         jan:null,
         feb:null,
@@ -1060,7 +1043,6 @@ const data = [
 
     },
     {
-        id:54,
         name:"တင်တင်ထွန်",
         jan:cost,
         feb:cost,
@@ -1081,8 +1063,14 @@ const data = [
     
 ]
 
+
 let table = document.querySelector("tbody")
+
+let num = 1
 data.forEach((person)=>{
+    person.id = num
+    num++
+
     const row = document.createElement("tr");
 
     const idCell = document.createElement("td");
@@ -1153,3 +1141,18 @@ data.forEach((person)=>{
     table.appendChild(row)
 
 })
+
+
+let totalSum = 0
+for(let i =0; i<data.length; i++){
+    totalSum += data[i].total
+}
+document.getElementById("total").innerHTML = totalSum
+
+
+
+var id = 1;
+for (var a = 0; a < jsonData.length; a++) {
+  data[a].id = id;
+  id++; 
+}
