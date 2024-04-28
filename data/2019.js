@@ -1149,10 +1149,3 @@ for(let i =0; i<data.length; i++){
 }
 document.getElementById("total").innerHTML = totalSum
 
-
-
-var id = 1;
-for (var a = 0; a < jsonData.length; a++) {
-  data[a].id = id;
-  id++; 
-}
